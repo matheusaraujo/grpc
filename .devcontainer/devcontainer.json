@@ -1,0 +1,7 @@
+{
+  "name": "gRPC",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  }
+}
