@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package helloworld;
+
+// Add this line to specify the Go package path
+option go_package = "grpc-example/hello;hello";
+
+// Define the HelloRequest message
+message HelloRequest {
+  string name = 1;
+}
+
+// Define the HelloReply message
+message HelloReply {
+  string message = 1;
+}
+
+// Define the Greeter service with a SayHello RPC method
+service Greeter {
+  rpc SayHello (HelloRequest) returns (HelloReply);
+}
