@@ -1,0 +1,40 @@
+# Binaries and build artifacts
+/bin/
+/obj/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Vendor directory (if you're using Go modules, this is optional)
+vendor/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Go module files (if using Go modules, this is optional)
+go.sum
+go.mod
