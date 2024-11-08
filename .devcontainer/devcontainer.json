@@ -19,9 +19,7 @@
         "go.useLanguageServer": true,
         "go.formatTool": "gofmt",
         "go.lintTool": "golangci-lint",
-        "go.lintOnSave": "file",
-        "go.gopath": "/go",
-        "go.goroot": "/usr/local/go"
+        "go.lintOnSave": "file"
       }
     }
   } 
